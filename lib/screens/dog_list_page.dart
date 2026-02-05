@@ -197,7 +197,7 @@ class _DogListPageState extends State<DogListPage> {
               Navigator.pop(context);
               _refreshDogs();
               ScaffoldMessenger.of(context).showSnackBar(
-                SnackBar(content: Text('${dog.name} deleted successfully')),
+                SnackBar(content: Text('${dog.name} deleted successfully !!')),
               );
             },
             child: Text('Delete', style: TextStyle(color: Colors.red)),

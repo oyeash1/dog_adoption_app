@@ -169,7 +169,7 @@ class _AddEditDogPageState extends State<AddEditDogPage> {
             TextFormField(
               controller: _nameController,
               decoration: InputDecoration(
-                labelText: 'Dog Name',
+                labelText: 'Dog Name :',
                 border: OutlineInputBorder(),
                 prefixIcon: Icon(Icons.pets),
               ),
@@ -219,7 +219,7 @@ class _AddEditDogPageState extends State<AddEditDogPage> {
             TextFormField(
               controller: _descriptionController,
               decoration: InputDecoration(
-                labelText: 'Description',
+                labelText: 'Description :',
                 border: OutlineInputBorder(),
                 prefixIcon: Icon(Icons.description),
               ),
@@ -256,7 +256,7 @@ class _AddEditDogPageState extends State<AddEditDogPage> {
             
             SizedBox(height: 16),
             SwitchListTile(
-              title: Text('Adopted'),
+              title: Text('Adopted !'),
               subtitle: Text(_isAdopted ? 'This dog has been adopted' : 'Available for adoption'),
               value: _isAdopted,
               onChanged: (value) {
